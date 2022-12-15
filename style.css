@@ -1,0 +1,98 @@
+.f-gara {
+  font-family: 'EB Garamond', serif;
+}
+.f-variant-small-caps {
+  font-variant: small-caps;
+}
+.bg-beige {
+  background: linear-gradient(to bottom right, #4D3128, #B54E31);
+}
+.bg-gray {
+  background-color: #9ca3af;
+}
+
+.text-lightGray {
+  color: #DDDCDA;
+}
+
+.bg-lightGray {
+  background-color: #DDDCDA;
+}
+
+.text-offWhite {
+  color: #e9e4de;
+}
+
+.text-greige {
+  color: #b6a385;
+}
+
+.bg-baioBlue {
+  background-color: #40548c;
+}
+
+.border-midBlue {
+  border: 0.2rem solid #3E4657;
+}
+
+.border-width-2px {
+  border-width: 2px !important;
+}
+
+.radius-5per {
+  border-radius: 5px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  width /***/: auto;
+}
+
+.img-fluid-height {
+  max-height: 10%;
+  width: auto;
+  width/***/: auto;
+}
+
+
+.overflowAuto {
+  overflow: auto;
+}
+
+.h-100vh {
+  height: 100vh;
+}
+.h-100per {
+  height: 100%;
+}
+
+.flowHeight {
+  height: 80%;
+}
+
+/* .mx-h-80 {} */
+
+.imgFit {
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+.hover {
+  cursor: pointer;
+}
+
+.hover-border {
+  display: block;
+}
+
+.hover-border:hover {
+  border: solid 1px #b6a385;
+}
+
+
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
