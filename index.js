@@ -1,3 +1,4 @@
+// 画像乱れあるので修正する
 const goods =
     [{
         "goodsName": "Sewing machine",
