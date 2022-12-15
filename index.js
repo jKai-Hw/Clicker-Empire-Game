@@ -1,7 +1,8 @@
 const goods =
     [{
         "goodsName": "Sewing machine",
-        "goodsImg": "https://cdn.pixabay.com/photo/2014/03/25/16/58/sewing-machine-297770_960_720.png",
+        // "goodsImg": "https://cdn.pixabay.com/photo/2014/03/25/16/58/sewing-machine-297770_960_720.png",
+        "goodsImg": "images/sewing-machine.png",
         "goodsType": "tool",
         "goodsMaxNumber": 500,
         "goodsImpactFigures": 3000,
@@ -259,17 +260,17 @@ class View {
         container.innerHTML =
         `
             <div class="bg-white border-bottom border-dark border-width-2px text-center col-12 col-sm-5 d-flex justify-content-center">
-                <h4 class="mt-2 mb-0 f-variant-small-caps pr-3">Name:</h4>
-                <h2 class="mt-2 mb-0 f-variant-small-caps">${user.name}</h2>
+                <h4 class="text-center mt-2 mb-0 f-variant-small-caps pr-3">Name:</h4>
+                <h2 class="text-center mt-2 mb-0 f-variant-small-caps">${user.name}</h2>
             </div>
             <div class="bg-white border-bottom border-dark border-width-2px text-center col-12 col-sm-5 ">
-                <h4 class="mt-2 mb-0 f-variant-small-caps">${user.age} Years Old</h4>
+                <h4 class="text-center mt-2 mb-0 f-variant-small-caps">${user.age} Years Old</h4>
             </div>
             <div class="bg-white border-bottom border-dark border-width-2px text-center col-12 col-sm-5 ">
-                <h4 class="mt-2 mb-0 f-variant-small-caps">${user.dateFrom20} Days</h4>
+                <h4 class="text-center mt-2 mb-0 f-variant-small-caps">${user.dateFrom20} Days</h4>
             </div>
             <div class="bg-white border-bottom border-dark border-width-2px text-center col-12 col-sm-5 ">
-                <h4 class="mt-2 mb-0 f-variant-small-caps">¥ ${Math.floor(user.amountOwned)}</h4>
+                <h4 class="text-center mt-2 mb-0 f-variant-small-caps">¥ ${Math.floor(user.amountOwned)}</h4>
             </div>
         `
 
@@ -286,7 +287,7 @@ class View {
             div.innerHTML =
             `
                 <div class="d-sm-block p-3 col-sm-3">
-                    <img src="${user.goodsObjList[i].img}" alt="" class="img-fluid">
+                    <img src="${user.goodsObjList[i].img}" class="img-fluid">
                 </div>
                 <div class="col-sm-9">
                     <div class="d-flex justify-content-between">
